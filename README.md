@@ -18,6 +18,19 @@ K-뷰티 전문 지식 **스킬**과 더캐스트(TheCast) **MCP 연계**를 담
 
 워크스페이스의 이 디렉터리를 `plugin_manager`의 `install_bundle` 대상으로 설치하면 현재 프로필(모든 세션)에 적용됩니다.
 
+## GitHub 배포 & 플러그인 마켓
+
+- 저장소: https://github.com/whenyourapprun/dsh-kbeauty-thecast (공개)
+- 패키지명: `@whenyourapprun/dsh-kbeauty-thecast`
+- 플러그인 마켓 인덱스: `plugin-index.json` (DSH 포맷 1)
+  - 인덱스 URL: `https://raw.githubusercontent.com/whenyourapprun/dsh-kbeauty-thecast/main/plugin-index.json`
+- 검색 키워드: k-beauty, kbeauty, skincare, cosmetics, beauty, thecast, 더캐스트, 뷰티, 화장품, 스킨케어, live-commerce, mcp, skill
+
+딥시크에서 설치:
+
+- **Plugin Manager**: 설치된 번들이 `K-Beauty & TheCast (K-뷰티 전문·라이브 커머스)`로 표시되며 위 키워드로 검색됩니다.
+- **Discover 탭**: `plugin-market` 번들을 활성화하고 위 인덱스 URL을 `indexes`에 추가하면 마켓에서 검색·설치할 수 있습니다.
+
 ## K-Beauty 스킬
 
 설치 후 세션 카탈로그에 `kbeauty` 스킬이 나타나며, 에이전트가 다음 작업에 사용합니다.
