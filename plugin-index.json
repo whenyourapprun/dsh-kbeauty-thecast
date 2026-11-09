@@ -1,0 +1,75 @@
+{
+  "format": 1,
+  "title": {
+    "en": "TheCast K-Beauty Plugins",
+    "ko": "더캐스트 K-뷰티 플러그인"
+  },
+  "description": {
+    "en": "K-Beauty expertise and TheCast live-commerce integration plugins for DeepSeek Harness.",
+    "ko": "K-뷰티 전문 지식과 더캐스트 라이브 커머스 연계를 위한 DeepSeek Harness 플러그인."
+  },
+  "metadata": {
+    "categories": {
+      "beauty": {
+        "title": { "en": "Beauty & Skincare", "ko": "뷰티 & 스킨케어" }
+      },
+      "commerce": {
+        "title": { "en": "Commerce & MCP", "ko": "커머스 & MCP" }
+      }
+    },
+    "labels": {
+      "skill": { "title": { "en": "Skill", "ko": "스킬" } },
+      "mcp": { "title": { "en": "MCP", "ko": "MCP" } }
+    }
+  },
+  "plugins": [
+    {
+      "name": "@whenyourapprun/dsh-kbeauty-thecast",
+      "title": {
+        "en": "K-Beauty & TheCast (K-beauty expertise & live commerce)",
+        "ko": "K-뷰티 & 더캐스트 (K-뷰티 전문·라이브 커머스)"
+      },
+      "description": {
+        "en": "K-Beauty expertise skill (skin types, ingredients, routines, product recommendations) and TheCast (더캐스트) live-commerce integration with MCP tools. K-beauty, cosmetics, skincare, beauty, live commerce, TheCast.",
+        "ko": "K-뷰티 전문 지식 스킬(피부 타입·성분·루틴·제품 추천)과 더캐스트(TheCast) 라이브 커머스 MCP 연계 도구. K-뷰티, 화장품, 스킨케어, 뷰티, 라이브커머스, 더캐스트."
+      },
+      "author": "whenyourapprun",
+      "homepage": "https://thecast.blacksmithio.com/developers/",
+      "repository": {
+        "url": "https://github.com/whenyourapprun/dsh-kbeauty-thecast"
+      },
+      "icon": "icon.svg",
+      "metadata": {
+        "category": "beauty",
+        "keywords": [
+          "k-beauty",
+          "kbeauty",
+          "korean-beauty",
+          "skincare",
+          "cosmetics",
+          "beauty",
+          "thecast",
+          "더캐스트",
+          "live-commerce",
+          "mcp",
+          "skill",
+          "뷰티",
+          "화장품",
+          "스킨케어"
+        ],
+        "labels": ["skill", "mcp"]
+      },
+      "versions": [
+        {
+          "version": "1.0.0",
+          "publishTimestamp": 1794201413,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/whenyourapprun/dsh-kbeauty-thecast.git",
+            "commit": "de4ae797205196af9be5e204d951a5a7f6b5d94b"
+          }
+        }
+      ]
+    }
+  ]
+}
