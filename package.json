@@ -1,0 +1,45 @@
+{
+  "name": "@whenyourapprun/dsh-kbeauty-thecast",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "description": "K-Beauty expertise skill (skin types, ingredients, routines, recommendations) and TheCast (더캐스트) live-commerce integration with MCP tools — for DeepSeek Harness.",
+  "keywords": [
+    "k-beauty",
+    "kbeauty",
+    "korean-beauty",
+    "skincare",
+    "cosmetics",
+    "beauty",
+    "thecast",
+    "live-commerce",
+    "mcp",
+    "deepseek-harness",
+    "dsh",
+    "skill"
+  ],
+  "author": "whenyourapprun",
+  "license": "MIT",
+  "homepage": "https://thecast.blacksmithio.com/developers/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/whenyourapprun/dsh-kbeauty-thecast.git"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "assets"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

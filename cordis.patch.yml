@@ -1,0 +1,22 @@
+# Loader patch for the K-Beauty + TheCast bundle.
+#
+# Row 1 (`kbeauty`) is this bundle's own Host plugin: it registers the
+# `kbeauty` expertise skill (assets/kbeauty/SKILL.md).
+#
+# Row 2 (`thecast-mcp`) wires TheCast through the shipped MCP client, pointed
+# at the TheCast developer endpoint now served by the homepage
+# (see thecast_homepage/thecast/developers-api.js). `failOnStartupError: false`
+# keeps the profile booting cleanly while the endpoint is deploying; the client
+# reconnects automatically once it is live.
+- insert:
+    - id: kbeauty
+      name: '@whenyourapprun/dsh-kbeauty-thecast'
+      config: {}
+    - id: thecast-mcp
+      name: '@deepseek-ai/dsh-mcp-client'
+      config:
+        serverName: thecast
+        transport: streamable-http
+        url: 'https://thecast.blacksmithio.com/mcp'
+        headers: {}
+        failOnStartupError: false
