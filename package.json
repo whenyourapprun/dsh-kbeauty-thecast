@@ -23,7 +23,7 @@
   "homepage": "https://thecast.blacksmithio.com/developers/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/whenyourapprun/dsh-kbeauty-thecast.git"
+    "url": "git+https://github.com/whenyourapprun/dsh-kbeauty-thecast.git"
   },
   "exports": {
     ".": "./index.js",
