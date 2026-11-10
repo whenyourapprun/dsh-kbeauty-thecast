@@ -11,15 +11,31 @@
   "metadata": {
     "categories": {
       "beauty": {
-        "title": { "en": "Beauty & Skincare", "ko": "뷰티 & 스킨케어" }
+        "title": {
+          "en": "Beauty & Skincare",
+          "ko": "뷰티 & 스킨케어"
+        }
       },
       "commerce": {
-        "title": { "en": "Commerce & MCP", "ko": "커머스 & MCP" }
+        "title": {
+          "en": "Commerce & MCP",
+          "ko": "커머스 & MCP"
+        }
       }
     },
     "labels": {
-      "skill": { "title": { "en": "Skill", "ko": "스킬" } },
-      "mcp": { "title": { "en": "MCP", "ko": "MCP" } }
+      "skill": {
+        "title": {
+          "en": "Skill",
+          "ko": "스킬"
+        }
+      },
+      "mcp": {
+        "title": {
+          "en": "MCP",
+          "ko": "MCP"
+        }
+      }
     }
   },
   "plugins": [
@@ -57,7 +73,10 @@
           "화장품",
           "스킨케어"
         ],
-        "labels": ["skill", "mcp"]
+        "labels": [
+          "skill",
+          "mcp"
+        ]
       },
       "versions": [
         {
@@ -66,7 +85,7 @@
           "source": {
             "type": "git",
             "url": "https://github.com/whenyourapprun/dsh-kbeauty-thecast.git",
-            "commit": "de4ae797205196af9be5e204d951a5a7f6b5d94b"
+            "commit": "c73e263f3eaa6cab00272693bd6393a1aa9fb561"
           }
         }
       ]
