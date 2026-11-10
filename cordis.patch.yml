@@ -10,7 +10,7 @@
 # reconnects automatically once it is live.
 - insert:
     - id: kbeauty
-      name: '@whenyourapprun/dsh-kbeauty-thecast'
+      name: '@smith3015/dsh-kbeauty-thecast'
       config: {}
     - id: thecast-mcp
       name: '@deepseek-ai/dsh-mcp-client'

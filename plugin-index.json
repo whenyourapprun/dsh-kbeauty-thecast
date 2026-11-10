@@ -24,7 +24,7 @@
   },
   "plugins": [
     {
-      "name": "@whenyourapprun/dsh-kbeauty-thecast",
+      "name": "@smith3015/dsh-kbeauty-thecast",
       "title": {
         "en": "K-Beauty & TheCast (K-beauty expertise & live commerce)",
         "ko": "K-뷰티 & 더캐스트 (K-뷰티 전문·라이브 커머스)"

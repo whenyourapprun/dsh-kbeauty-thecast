@@ -21,7 +21,7 @@ K-뷰티 전문 지식 **스킬**과 더캐스트(TheCast) **MCP 연계**를 담
 ## GitHub 배포 & 플러그인 마켓
 
 - 저장소: https://github.com/whenyourapprun/dsh-kbeauty-thecast (공개)
-- 패키지명: `@whenyourapprun/dsh-kbeauty-thecast`
+- 패키지명: `@smith3015/dsh-kbeauty-thecast`
 - 플러그인 마켓 인덱스: `plugin-index.json` (DSH 포맷 1)
   - 인덱스 URL: `https://raw.githubusercontent.com/whenyourapprun/dsh-kbeauty-thecast/main/plugin-index.json`
 - 검색 키워드: k-beauty, kbeauty, skincare, cosmetics, beauty, thecast, 더캐스트, 뷰티, 화장품, 스킨케어, live-commerce, mcp, skill
